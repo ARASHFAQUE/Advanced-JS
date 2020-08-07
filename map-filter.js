@@ -35,7 +35,7 @@ console.log(result);
 const result = numbers.map(x => x * x);
 console.log(result);
 
-////-----------Filter----------////
+////-----Filter ==> will output an array. if there is no element matches with the condition though it will output an empty array-----////
 const numbers = [3, 4, 5, 6, 7, 8];
 const bigger = numbers.filter( x => x > 5);
 const smaller = numbers.filter( x => x < 5);
